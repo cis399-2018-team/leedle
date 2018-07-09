@@ -1,0 +1,1 @@
+To do this, I had to look on the internet to figure it out. I used "https://tecadmin.net/5-commands-to-get-public-ip-using-linux-terminal/" to learn about the dig command, specifically the dig +short myip.opendns.com @resolver1.opendns.com command. This gave me my public ip address.
