@@ -1,0 +1,93 @@
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  1.1  43696  5588 ?        Ss   Jul01   0:03 /usr/lib/systemd/systemd --switched-root --system --deserialize 22
+root         2  0.0  0.0      0     0 ?        S    Jul01   0:00 [kthreadd]
+root         4  0.0  0.0      0     0 ?        I<   Jul01   0:00 [kworker/0:0H]
+root         6  0.0  0.0      0     0 ?        I<   Jul01   0:00 [mm_percpu_wq]
+root         7  0.0  0.0      0     0 ?        S    Jul01   0:00 [ksoftirqd/0]
+root         8  0.0  0.0      0     0 ?        I    Jul01   0:02 [rcu_sched]
+root         9  0.0  0.0      0     0 ?        I    Jul01   0:00 [rcu_bh]
+root        10  0.0  0.0      0     0 ?        S    Jul01   0:00 [migration/0]
+root        11  0.0  0.0      0     0 ?        S    Jul01   0:00 [watchdog/0]
+root        12  0.0  0.0      0     0 ?        S    Jul01   0:00 [cpuhp/0]
+root        13  0.0  0.0      0     0 ?        S    Jul01   0:00 [kdevtmpfs]
+root        14  0.0  0.0      0     0 ?        I<   Jul01   0:00 [netns]
+root        15  0.0  0.0      0     0 ?        I    Jul01   0:01 [kworker/u30:1]
+root        20  0.0  0.0      0     0 ?        S    Jul01   0:00 [xenbus]
+root        21  0.0  0.0      0     0 ?        S    Jul01   0:00 [xenwatch]
+root       170  0.0  0.0      0     0 ?        S    Jul01   0:00 [khungtaskd]
+root       171  0.0  0.0      0     0 ?        S    Jul01   0:00 [oom_reaper]
+root       172  0.0  0.0      0     0 ?        I<   Jul01   0:00 [writeback]
+root       174  0.0  0.0      0     0 ?        S    Jul01   0:00 [kcompactd0]
+root       175  0.0  0.0      0     0 ?        SN   Jul01   0:00 [ksmd]
+root       176  0.0  0.0      0     0 ?        I<   Jul01   0:00 [crypto]
+root       177  0.0  0.0      0     0 ?        I<   Jul01   0:00 [kintegrityd]
+root       179  0.0  0.0      0     0 ?        I<   Jul01   0:00 [kblockd]
+root       532  0.0  0.0      0     0 ?        I<   Jul01   0:00 [md]
+root       535  0.0  0.0      0     0 ?        I<   Jul01   0:00 [edac-poller]
+root       664  0.0  0.0      0     0 ?        S    Jul01   0:00 [kauditd]
+root       670  0.0  0.0      0     0 ?        S    Jul01   0:00 [kswapd0]
+root       802  0.0  0.0      0     0 ?        I<   Jul01   0:00 [kthrotld]
+root       853  0.0  0.0      0     0 ?        I<   Jul01   0:00 [kstrp]
+root       883  0.0  0.0      0     0 ?        I<   Jul01   0:00 [ipv6_addrconf]
+root      1715  0.0  0.0      0     0 ?        I<   Jul01   0:00 [ata_sff]
+root      1722  0.0  0.0      0     0 ?        S    Jul01   0:00 [scsi_eh_0]
+root      1733  0.0  0.0      0     0 ?        I<   Jul01   0:00 [scsi_tmf_0]
+root      1737  0.0  0.0      0     0 ?        S    Jul01   0:00 [scsi_eh_1]
+root      1738  0.0  0.0      0     0 ?        I<   Jul01   0:00 [scsi_tmf_1]
+root      1828  0.0  0.0      0     0 ?        I<   Jul01   0:00 [xfsalloc]
+root      1829  0.0  0.0      0     0 ?        I<   Jul01   0:00 [xfs_mru_cache]
+root      1831  0.0  0.0      0     0 ?        I<   Jul01   0:00 [xfs-buf/xvda1]
+root      1832  0.0  0.0      0     0 ?        I<   Jul01   0:00 [xfs-data/xvda1]
+root      1833  0.0  0.0      0     0 ?        I<   Jul01   0:00 [xfs-conv/xvda1]
+root      1834  0.0  0.0      0     0 ?        I<   Jul01   0:00 [xfs-cil/xvda1]
+root      1835  0.0  0.0      0     0 ?        I<   Jul01   0:00 [xfs-reclaim/xvd]
+root      1836  0.0  0.0      0     0 ?        I<   Jul01   0:00 [xfs-log/xvda1]
+root      1837  0.0  0.0      0     0 ?        I<   Jul01   0:00 [xfs-eofblocks/x]
+root      1838  0.0  0.0      0     0 ?        S    Jul01   0:19 [xfsaild/xvda1]
+root      1839  0.0  0.0      0     0 ?        I<   Jul01   0:00 [kworker/0:1H]
+root      1903  0.0 10.1 100468 50012 ?        Ss   Jul01   0:07 /usr/lib/systemd/systemd-journald
+root      1919  0.0  0.0      0     0 ?        I<   Jul01   0:00 [ena]
+root      2060  0.0  0.4 116800  2192 ?        Ss   Jul01   0:00 /usr/sbin/lvmetad -f
+root      2081  0.0  0.0      0     0 ?        I<   Jul01   0:00 [rpciod]
+root      2271  0.0  0.0      0     0 ?        I<   Jul01   0:00 [xprtiod]
+root      2546  0.0  0.7  45724  3948 ?        Ss   Jul01   0:00 /usr/lib/systemd/systemd-udevd
+root      2621  0.0  0.4  57784  2000 ?        S<sl Jul01   0:00 /sbin/auditd
+root      2644  0.0  0.1   6452   828 ?        Ss   Jul01   0:03 /sbin/rngd -f
+libstor+  2645  0.0  0.3  12656  1852 ?        Ss   Jul01   0:00 /usr/bin/lsmd -d
+root      2646  0.0  0.6  28520  3040 ?        Ss   Jul01   0:01 /usr/lib/systemd/systemd-logind
+dbus      2654  0.0  0.5  26496  2892 ?        Ss   Jul01   0:01 /bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
+chrony    2661  0.0  0.8 122628  3972 ?        S    Jul01   0:00 /usr/sbin/chronyd
+root      2663  0.0  6.9 273536 34380 ?        Ssl  Jul01   0:10 /usr/sbin/rsyslogd -n
+root      2674  0.0  0.6 201828  3148 ?        Ssl  Jul01   0:00 /usr/sbin/gssproxy -D
+root      2871  0.0  0.8 102956  4144 ?        Ss   Jul01   0:00 /sbin/dhclient -q -lf /var/lib/dhclient/dhclient--eth0.lease -pf /var/run/dhclient-eth0.pid -H ip-10-0-1-132 eth0
+root      2977  0.0  0.7 102956  3700 ?        Ss   Jul01   0:00 /sbin/dhclient -6 -nw -lf /var/lib/dhclient/dhclient6--eth0.lease -pf /var/run/dhclient6-eth0.pid eth0 -H ip-10-0-1-132
+root      3112  0.0  0.9  90448  4856 ?        Ss   Jul01   0:00 /usr/libexec/postfix/master -w
+postfix   3114  0.0  1.3  90612  6672 ?        S    Jul01   0:00 qmgr -l -t unix -u
+root      3153  0.0  1.5 110448  7588 ?        Ss   Jul01   0:00 /usr/sbin/sshd -D
+root      3156  0.0  0.4  27912  2352 ?        Ss   Jul01   0:00 /usr/sbin/atd -f
+root      3157  0.0  0.6 135108  3276 ?        Ss   Jul01   0:00 /usr/sbin/crond -n
+root      3162  0.0  0.4 120984  2244 ttyS0    Ss+  Jul01   0:00 /sbin/agetty --keep-baud 115200,38400,9600 ttyS0 vt220
+root      3163  0.0  0.3 121336  1752 tty1     Ss+  Jul01   0:00 /sbin/agetty --noclear tty1 linux
+root      3208  0.0  2.9 616844 14556 ?        Ssl  Jul01   0:42 /usr/bin/amazon-ssm-agent
+root      3292  0.0  0.0      0     0 ?        I    Jul01   0:00 [kworker/u30:0]
+postfix  11972  0.0  1.3  90536  6616 ?        S    22:13   0:00 pickup -l -t unix -u
+root     12174  0.0  1.6 148132  8260 ?        Ss   23:13   0:00 sshd: ec2-user [priv]
+ec2-user 12176  0.0  0.8 148132  4384 ?        S    23:13   0:00 sshd: ec2-user@pts/0
+ec2-user 12177  0.0  0.8 124928  4252 pts/0    Ss   23:13   0:00 -bash
+ec2-user 12209  0.0  1.5 158392  7724 pts/0    S+   23:14   0:00 vim authorized_keys_backup
+root     12445  0.0  0.0      0     0 ?        I    23:30   0:00 [kworker/0:2]
+root     12447  0.0  1.6 148132  8368 ?        Ss   23:31   0:00 sshd: ec2-user [priv]
+ec2-user 12449  0.0  0.8 148132  4440 ?        S    23:31   0:00 sshd: ec2-user@pts/1
+ec2-user 12450  0.0  0.8 124928  4196 pts/1    Ss+  23:31   0:00 -bash
+root     12493  0.0  1.6 148132  8220 ?        Ss   23:33   0:00 sshd: ec2-user [priv]
+ec2-user 12495  0.0  0.9 148132  4564 ?        S    23:33   0:00 sshd: ec2-user@pts/2
+ec2-user 12496  0.0  0.7 124796  3928 pts/2    Ss+  23:33   0:00 -bash
+root     12519  0.0  1.6 148132  8300 ?        Ss   23:35   0:00 sshd: ec2-user [priv]
+ec2-user 12521  0.0  0.8 148132  4380 ?        S    23:35   0:00 sshd: ec2-user@pts/3
+ec2-user 12522  0.0  0.8 124796  4056 pts/3    Ss+  23:35   0:00 -bash
+root     12547  0.0  0.0      0     0 ?        I    23:36   0:00 [kworker/0:1]
+root     12568  0.0  1.6 148132  8192 ?        Ss   23:37   0:00 sshd: ec2-user [priv]
+ec2-user 12570  0.0  0.8 148132  4388 ?        S    23:37   0:00 sshd: ec2-user@pts/4
+ec2-user 12571  0.0  0.9 124928  4564 pts/4    Ss   23:37   0:00 -bash
+root     12623  0.0  0.0      0     0 ?        I    23:41   0:00 [kworker/0:0]
+ec2-user 12628  0.0  0.7 164444  3928 pts/4    R+   23:42   0:00 ps aux
