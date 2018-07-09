@@ -1,0 +1,52 @@
+Reading package lists...
+Reading package lists...
+W: chmod 0700 of directory /var/lib/apt/lists/partial failed - SetupAPTPartialDirectory (1: Operation not permitted)
+E: Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)
+E: Unable to lock directory /var/lib/apt/lists/
+W: Problem unlinking the file /var/cache/apt/pkgcache.bin - RemoveCaches (13: Permission denied)
+W: Problem unlinking the file /var/cache/apt/srcpkgcache.bin - RemoveCaches (13: Permission denied)
+sudo: apt0get: command not found
+Hit:1 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial InRelease
+Get:2 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-updates InRelease [109 kB]
+Get:3 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-backports InRelease [107 kB]
+Get:4 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial/main Sources [868 kB]
+Get:5 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial/restricted Sources [4,808 B]
+Get:6 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial/universe Sources [7,728 kB]
+Get:7 http://security.ubuntu.com/ubuntu xenial-security InRelease [107 kB]
+Get:8 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial/multiverse Sources [179 kB]
+Get:9 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial/universe amd64 Packages [7,532 kB]
+Get:10 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial/universe Translation-en [4,354 kB]
+Get:11 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial/multiverse amd64 Packages [144 kB]
+Get:12 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial/multiverse Translation-en [106 kB]
+Get:13 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-updates/main Sources [311 kB]
+Get:14 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-updates/restricted Sources [2,524 B]
+Get:15 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-updates/universe Sources [205 kB]
+Get:16 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-updates/multiverse Sources [8,408 B]
+Get:17 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-updates/main amd64 Packages [804 kB]
+Get:18 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-updates/main Translation-en [331 kB]
+Get:19 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-updates/restricted amd64 Packages [7,560 B]
+Get:20 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-updates/restricted Translation-en [2,272 B]
+Get:21 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-updates/universe amd64 Packages [640 kB]
+Get:22 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-updates/universe Translation-en [258 kB]
+Get:23 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-updates/multiverse amd64 Packages [16.4 kB]
+Get:24 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-updates/multiverse Translation-en [8,344 B]
+Get:25 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-backports/main Sources [4,484 B]
+Get:26 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-backports/universe Sources [6,712 B]
+Get:27 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-backports/main amd64 Packages [6,744 B]
+Get:28 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-backports/main Translation-en [4,180 B]
+Get:29 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-backports/universe amd64 Packages [7,412 B]
+Get:30 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-backports/universe Translation-en [3,996 B]
+Get:31 http://security.ubuntu.com/ubuntu xenial-security/main Sources [127 kB]
+Get:32 http://security.ubuntu.com/ubuntu xenial-security/restricted Sources [2,116 B]
+Get:33 http://security.ubuntu.com/ubuntu xenial-security/universe Sources [66.0 kB]
+Get:34 http://security.ubuntu.com/ubuntu xenial-security/multiverse Sources [2,124 B]
+Get:35 http://security.ubuntu.com/ubuntu xenial-security/main amd64 Packages [518 kB]
+Get:36 http://security.ubuntu.com/ubuntu xenial-security/main Translation-en [222 kB]
+Get:37 http://security.ubuntu.com/ubuntu xenial-security/restricted amd64 Packages [7,204 B]
+Get:38 http://security.ubuntu.com/ubuntu xenial-security/restricted Translation-en [2,152 B]
+Get:39 http://security.ubuntu.com/ubuntu xenial-security/universe amd64 Packages [356 kB]
+Get:40 http://security.ubuntu.com/ubuntu xenial-security/universe Translation-en [133 kB]
+Get:41 http://security.ubuntu.com/ubuntu xenial-security/multiverse amd64 Packages [3,456 B]
+Get:42 http://security.ubuntu.com/ubuntu xenial-security/multiverse Translation-en [1,744 B]
+Fetched 25.3 MB in 4s (6,009 kB/s)
+Reading package lists...

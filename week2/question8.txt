@@ -1,0 +1,45 @@
+Netid  State      Recv-Q Send-Q Local Address:Port                 Peer Address:Port                
+u_str  ESTAB      0      0       * 83894                 * 83895                
+u_str  ESTAB      0      0       * 83348                 * 83347                
+u_str  ESTAB      0      0       * 83347                 * 83348                
+u_str  ESTAB      0      0       * 10126                 * 10127                
+u_str  ESTAB      0      0       * 84573                 * 84572                
+u_str  ESTAB      0      0       * 84572                 * 84573                
+u_str  ESTAB      0      0       * 83276                 * 83296                
+u_str  ESTAB      0      0      /run/systemd/journal/stdout 10127                 * 10126                
+u_str  ESTAB      0      0      /run/systemd/journal/stdout 15879                 * 15878                
+u_str  ESTAB      0      0      /run/systemd/journal/stdout 83296                 * 83276                
+u_str  ESTAB      0      0       * 15878                 * 15879                
+u_str  ESTAB      0      0       * 83895                 * 83894                
+u_str  ESTAB      0      0      /var/run/dbus/system_bus_socket 14174                 * 14164                
+u_str  ESTAB      0      0       * 14164                 * 14174                
+u_str  ESTAB      0      0      /run/systemd/journal/stdout 11082                 * 11077                
+u_str  ESTAB      0      0       * 14170                 * 14171                
+u_str  ESTAB      0      0      /var/run/dbus/system_bus_socket 14763                 * 14757                
+u_str  ESTAB      0      0       * 84389                 * 84388                
+u_str  ESTAB      0      0       * 11077                 * 11082                
+u_str  ESTAB      0      0       * 14072                 * 14172                
+u_str  ESTAB      0      0      /var/run/dbus/system_bus_socket 14172                 * 14072                
+u_str  ESTAB      0      0       * 9587                  * 9588                 
+u_str  ESTAB      0      0       * 13582                 * 15640                
+u_str  ESTAB      0      0      /run/systemd/journal/stdout 15640                 * 13582                
+u_str  ESTAB      0      0      /run/systemd/journal/stdout 15639                 * 13526                
+u_str  ESTAB      0      0      /run/systemd/journal/stdout 15653                 * 13875                
+u_str  ESTAB      0      0       * 13875                 * 15653                
+u_str  ESTAB      0      0       * 13526                 * 15639                
+u_str  ESTAB      0      0       * 13930                 * 15654                
+u_str  ESTAB      0      0      /run/systemd/journal/stdout 15661                 * 14007                
+u_str  ESTAB      0      0      /run/systemd/journal/stdout 15654                 * 13930                
+u_str  ESTAB      0      0       * 84388                 * 84389                
+u_str  ESTAB      0      0       * 14171                 * 14170                
+u_str  ESTAB      0      0       * 14757                 * 14763                
+u_str  ESTAB      0      0       * 14133                 * 15673                
+u_str  ESTAB      0      0      /run/systemd/journal/stdout 15673                 * 14133                
+u_str  ESTAB      0      0      /run/systemd/journal/stdout 9588                  * 9587                 
+u_str  ESTAB      0      0       * 14134                 * 14173                
+u_str  ESTAB      0      0       * 14007                 * 15661                
+u_str  ESTAB      0      0      /var/run/dbus/system_bus_socket 14173                 * 14134                
+tcp    ESTAB      0      0      10.0.1.214:ssh                  128.223.223.131:16481                
+tcp    ESTAB      0      0      10.0.1.214:ssh                  128.223.223.131:58089                
+tcp    ESTAB      0      0      10.0.1.214:ssh                  128.223.223.131:56711                
+tcp    ESTAB      0      0      10.0.1.214:ssh                  128.223.223.131:52993                
