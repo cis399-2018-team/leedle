@@ -1,0 +1,8 @@
+[0;32mInfo: Retrieving pluginfacts[0m
+[0;32mInfo: Retrieving plugin[0m
+[0;32mInfo: Caching catalog for ip-10-0-1-214.us-west-2.compute.internal[0m
+[0;32mInfo: Applying configuration version '1531860277'[0m
+[mNotice: /Stage[main]/Sshd/Ssh_authorized_key[mhagel2]/ensure: created[0m
+[mNotice: /Stage[main]/Sshd/Ssh_authorized_key[jbeder1]/ensure: created[0m
+[mNotice: /Stage[main]/Sshd/Ssh_authorized_key[dbeeman]/ensure: created[0m
+[mNotice: Finished catalog run in 0.06 seconds[0m

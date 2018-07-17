@@ -1,0 +1,7 @@
+[0;32mInfo: Retrieving pluginfacts[0m
+[0;32mInfo: Retrieving plugin[0m
+[0;32mInfo: Caching catalog for ip-10-0-1-214.us-west-2.compute.internal[0m
+[0;32mInfo: Applying configuration version '1531860277'[0m
+[mNotice: /Stage[main]/Sshd/Service[sshd]/ensure: ensure changed 'stopped' to 'running'[0m
+[0;32mInfo: /Stage[main]/Sshd/Service[sshd]: Unscheduling refresh on Service[sshd][0m
+[mNotice: Finished catalog run in 0.08 seconds[0m
