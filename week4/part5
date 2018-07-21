@@ -1,0 +1,28 @@
+MICHAEL:
+Access to web content:
+128.223.223.131 - - [21/Jul/2018:23:47:07 +0000] "GET / HTTP/1.1" 200 3536 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36"
+
+Health check:
+10.0.1.165 - - [21/Jul/2018:23:36:03 +0000] "GET /index.html HTTP/1.1" 200 11596 "-" "ELB-HealthChecker/1.0"
+10.0.1.197 - - [21/Jul/2018:23:36:28 +0000] "GET /index.html HTTP/1.1" 200 11596 "-" "ELB-HealthChecker/1.0"
+10.0.1.165 - - [21/Jul/2018:23:36:33 +0000] "GET /index.html HTTP/1.1" 200 11596 "-" "ELB-HealthChecker/1.0"
+
+
+JAKE:
+Access to web content:
+10.0.1.197 - - [21/Jul/2018:23:49:45 +0000] "GET / HTTP/1.1" 200 3531 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36"
+
+Health check: 
+10.0.1.165 - - [21/Jul/2018:23:49:03 +0000] "GET /index.html HTTP/1.1" 200 11605 "-" "ELB-HealthChecker/1.0"
+10.0.1.197 - - [21/Jul/2018:23:49:28 +0000] "GET /index.html HTTP/1.1" 200 11605 "-" "ELB-HealthChecker/1.0"
+10.0.1.165 - - [21/Jul/2018:23:49:33 +0000] "GET /index.html HTTP/1.1" 200 11605 "-" "ELB-HealthChecker/1.0"
+
+
+BEEMAN (master):
+Access to web content:
+10.0.1.197 - - [21/Jul/2018:23:51:27 +0000] "GET / HTTP/1.1" 200 3525 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36"
+
+Health check:
+10.0.1.165 - - [21/Jul/2018:23:52:03 +0000] "GET /index.html HTTP/1.1" 200 11632 "-" "ELB-HealthChecker/1.0"
+10.0.1.197 - - [21/Jul/2018:23:52:28 +0000] "GET /index.html HTTP/1.1" 200 11632 "-" "ELB-HealthChecker/1.0"
+10.0.1.165 - - [21/Jul/2018:23:52:33 +0000] "GET /index.html HTTP/1.1" 200 11632 "-" "ELB-HealthChecker/1.0"
