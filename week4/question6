@@ -1,0 +1,40 @@
+#Below is the puppet code for the module httpd which allows
+#us to replicate content between web servers.
+#
+#The files needed are the apache2.conf and the index.html file.
+#These are located under modules/httpd/files.
+
+class httpd {
+	package { 
+		"apache2": ensure => installed;
+	}
+
+	file {"/etc/apache2/apache2.conf":
+		source => [
+			"puppet:///modules/httpd/apache2.conf",
+		],
+		mode => 444,
+		owner => root,
+		group => root,
+		require => Package["apache2"],
+	}
+	file {"/var/www/html/index.html":
+		source => [
+			"puppet:///modules/httpd/index.html",
+		],
+		mode => 444,
+		recurse => true,
+		owner => root,
+		group => root,
+	}
+
+	service { "apache2":
+		enable => true,
+		ensure => running,
+		hasstatus => true,
+		hasrestart => true,
+		require => [Package["apache2"],
+			File["/etc/apache2/apache2.conf"]],
+		subscribe => File["/etc/apache2/apache2.conf"], 
+	}
+}
