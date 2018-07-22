@@ -2,7 +2,7 @@
 #us to replicate content between web servers.
 #
 #The files needed are the apache2.conf and the index.html file.
-#These are located under modules/httpd/files.
+#These are located under modules/httpd/files in the leedle-puppet Github.
 
 class httpd {
 	package { 
