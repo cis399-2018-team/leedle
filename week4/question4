@@ -1,3 +1,5 @@
-When one instance is down, everything still works fine. However, when we shut down both of our instances that are connected to the load balancers, then nothing works anymore.
+When one instance is down, everything still works fine. However, when we shut down both of our instances that are connected to the load balancers, then nothing works anymore. It says: This page isn’t working
+leedle-884676379.us-west-2.elb.amazonaws.com is currently unable to handle this request.
+HTTP ERROR 503
 
 When we restore at least one of our instances, everything works again. That being said, it takes a little bit of time for Amazon to say that our instances are back online.
