@@ -1,0 +1,7 @@
+I was able to login to all groups successfully except for group 'Vandrea'. 
+For this group, I was unable to login to both agent instances given my provided account username,
+ and I sent an email to them letting them know that I was unable to login. 
+
+All other groups were successful with no issues at all given a provided username via email. 
+
+
