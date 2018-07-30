@@ -1,0 +1,4 @@
+I could connect to all instances except for the Vandrea instance. I tried both of their
+instances and neither worked.
+
+All other instances were entirely successful.
