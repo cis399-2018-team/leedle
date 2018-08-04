@@ -1,0 +1,44 @@
+You are receiving this email because your Amazon CloudWatch Alarm "awsec2-i-088f12728bb7367d3-High-Network-In" in the US West (Oregon) region has entered the ALARM state, because "Threshold Crossed: 1 datapoint [626172.6 (03/08/18 13:27:00)] was greater than or equal to the threshold (100000.0)." at "Friday 03 August, 2018 13:32:56 UTC".
+
+View this alarm in the AWS Management Console:
+https://console.aws.amazon.com/cloudwatch/home?region=us-west-2#s=Alarms&alarm=awsec2-i-088f12728bb7367d3-High-Network-In
+
+Alarm Details:
+- Name:                       awsec2-i-088f12728bb7367d3-High-Network-In
+- Description:                Created from EC2 Console
+- State Change:               OK -> ALARM
+- Reason for State Change:    Threshold Crossed: 1 datapoint [626172.6 (03/08/18 13:27:00)] was greater than or equal to the threshold (100000.0).
+- Timestamp:                  Friday 03 August, 2018 13:32:56 UTC
+- AWS Account:                006170570170
+
+
+
+
+You are receiving this email because your Amazon CloudWatch Alarm "awsec2-i-088f12728bb7367d3-CPU-Utilization" in the US West (Oregon) region has entered the ALARM state, because "Threshold Crossed: 1 datapoint [0.1661202185792354 (01/08/18 23:52:00)] was greater than or equal to the threshold (0.01)." at "Thursday 02 August, 2018 00:02:05 UTC".
+
+View this alarm in the AWS Management Console:
+https://console.aws.amazon.com/cloudwatch/home?region=us-west-2#s=Alarms&alarm=awsec2-i-088f12728bb7367d3-CPU-Utilization
+
+Alarm Details:
+- Name:                       awsec2-i-088f12728bb7367d3-CPU-Utilization
+- Description:                Created from EC2 Console
+- State Change:               OK -> ALARM
+- Reason for State Change:    Threshold Crossed: 1 datapoint [0.1661202185792354 (01/08/18 23:52:00)] was greater than or equal to the threshold (0.01).
+- Timestamp:                  Thursday 02 August, 2018 00:02:05 UTC
+- AWS Account:                006170570170
+
+
+
+
+You are receiving this email because your Amazon CloudWatch Alarm "awsec2-i-088f12728bb7367d3-High-Network-Out" in the US West (Oregon) region has entered the ALARM state, because "Threshold Crossed: 1 datapoint [54813.6 (01/08/18 23:50:00)] was greater than or equal to the threshold (40000.0)." at "Thursday 02 August, 2018 00:00:45 UTC".
+
+View this alarm in the AWS Management Console:
+https://console.aws.amazon.com/cloudwatch/home?region=us-west-2#s=Alarms&alarm=awsec2-i-088f12728bb7367d3-High-Network-Out
+
+Alarm Details:
+- Name:                       awsec2-i-088f12728bb7367d3-High-Network-Out
+- Description:                Created from EC2 Console
+- State Change:               OK -> ALARM
+- Reason for State Change:    Threshold Crossed: 1 datapoint [54813.6 (01/08/18 23:50:00)] was greater than or equal to the threshold (40000.0).
+- Timestamp:                  Thursday 02 August, 2018 00:00:45 UTC
+- AWS Account:                006170570170
