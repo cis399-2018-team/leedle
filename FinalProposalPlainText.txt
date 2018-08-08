@@ -1,0 +1,14 @@
+Goals for the Project
+   We intend to set up a mail server for all users using the Postfix mail server. Here’s a link to the Postfix website: http://www.postfix.org/start.html. For testing and verification we will ensure that our group can send emails, and as root users we’ll check all users emails to see if emails sent.
+
+Support Issues
+   Since all users will have access to email, a common support issue will relate to the mail server itself being up/down. Other user support issues will often be out of our hands, and would relate to their mail not sending due to network and other similar issues.
+
+Security
+   We’ll have to set up some sort of spam filter to provide security against malicious spammers. In addition, it is possible that other users will feel insecure if they don’t have password protection on their personal emails.
+
+Work Needed
+   We will need to write a puppet module to ensure users have access to a personal mail server. The web server itself will just be setting up the basics given the Postfix tutorials and documentation. If necessary, we will look for third-party spam filters to assist in security. After we have written the puppet modules necessary we will test and notify users to test as well, in hopes that they can send emails with no issues.
+
+Documentation
+   We will first write detailed documentation on how the Postfix server was deployed and on how we allowed each user on our system to have a mailbox. For the users we will write a step by step instruction list of how to send email.
