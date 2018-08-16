@@ -1,0 +1,6 @@
+In order to start up email, simply type "mutt" into the command line.
+This will open up mutt and allow you to view your emails. If you click "m", you will be able to draft and send and email. 
+First, enter the sender address. Press Enter
+Next, enter the subject. Press Enter.
+Next, type your message. If you are in Vim, press "i" to begin to type, press "esc" and then ":wq" to save your message.
+Next, press "y" to send your email.
