@@ -1,0 +1,11 @@
+This document is for changes made to the mail configuration. It is intended for sys admins.
+
+Firstly, any changes to files that need to be updated on agent instances can be done with a "git pull origin master" command by the puppet master in /etc/puppet in root mode. 
+
+Any changes to postfix files need a "puppet agent -t" by the agent that made the change, otherwise the config file will not be properly updated. Other than that, a "git pull origin masteri" by the puppet master should account for any changes to other files. 
+
+For reference, in modules/mailbox/files, Muttrc is the mutt config file, and main.cf is the postfix config file. changing Muttrc only requires a pull by the puppet master, while chaning main.cf requires a "puppet agent -t" by an agent. 
+
+Another note is that when sending messages to outside sources such as gmail or webmail, there can be a delay when sending the first message in an email thread. We found that a first message in a thread to gmail can take up to 1 hour to send. 
+
+Lastly, any updates that need to take place accross the system can be implemented by an agent instance with a "puppet agent -t" command. This will update the respective package. 
